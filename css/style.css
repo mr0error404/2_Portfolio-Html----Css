@@ -34,6 +34,17 @@ h4{
     letter-spacing: 0.12rem;
     color: var(--seconderyColor);
 }
+h5{
+    font-size: 1.37rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+p{
+    color: var(--seconderyColor);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
 span{
     color: var(--primaryColor);
 }
@@ -103,7 +114,7 @@ nav ul li a:hover{
 .social img:hover{
     transform: scale(1.2);
 }
-.container-images{
+.home .container-images{
     width: 45%;
     height: 90%;
     position: relative;
@@ -117,6 +128,22 @@ nav ul li a:hover{
     transform: translateX(-50%);
     transition:bottom 1s ;
 }
-.container-images:hover .shape{
+.home .container-images:hover .shape{
     bottom: 40px;
+}
+.about{
+    background-color: var(--bagColor-2);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .container-images{
+    width: 35%;
+}
+.about .container-images img{
+    width: 90%;
+}
+.about .container-texts{
+    width: 35%;
 }
